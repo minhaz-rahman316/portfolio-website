@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+:root{
+    --main-font:'Vidaloka',serif;
+    --sc-font:'Inter',sans-serif;
+    --font-color1:#3C3C3C;
+    --main-color: #D66363 ;
+}
+
+body{
+    background-color: #DFDFDF;
+}
+
+button{
+    width: 160px;
+    height: 56.24px;
+    border: 2px solid #D66363;
+    background-color: #DFDFDF;
+    border-radius: 6px;
+    text-align: center;
+}
+button a{
+    font-family: var(--sc-font);
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #3C3C3C;
+    transition: all .4s ease-in;
+}
+button:hover{
+    background-color: #D66363;
+}
+
+
+.mouse{
+    width: 27px;
+    height: 43.5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+h1{
+    font-family: var(--main-font);
+    color: #353535;
+}
+
+/* nav start */
+.navbar{
+    background-color: #DFDFDF !important;
+    margin-top: 17px;
+    
+}
+
+.navbar a {
+    color: #3C3C3C !important;
+    font-family: 'Vidaloka',serif;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
+
+.navbar a:hover{
+    color: #D66363 !important;
+}
+.navbar li a{
+    color: #3C3C3C !important;
+    font-family: var(--sc-font);
+    margin-right: 58px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* nav ends */
+
+
+/* hero starts  */
+
+.main-text h1{
+    font-family: var(--main-font);
+    color: #3C3C3C !important;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    margin-top: 171px;
+}
+.main-text h1 span{
+    color: #D66363;
+}
+
+.main-text img{
+    width: 474px;
+    margin-top: 30px;
+}
+
+.main-text p{
+    font-family: var(--sc-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    color: #D66363;
+    margin-top: 24px;
+}
+
+.hero .main-btn{
+    margin-top:78px;
+}
+
+.hero .main-btn .right{
+    margin-left: 47px;
+}
+
+.hero-img{
+    width: 563.04px;
+    height: 512px;
+    margin-top: 50px;
+}
+/* hero ends  */
+
+
+/* skils starts  */
+
+#skills{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#skills h1{
+    font-family: var(--main-font);
+    color: var(--font-color1);
+    font-size: 47.2292px;
+    line-height: 57px;
+    letter-spacing: 0.1em;
+}
+.line{
+    width: 410px;
+}
+
+
+ h2{
+    margin-top: 93px;
+    margin-bottom: 27px;
+    font-family: var(--main-font);
+    color: #D66363;
+    font-size: 36px;
+}
+
+.skill-set .dev{
+    width: 728px;
+    height: 66px;
+}
+.skill-set .des{
+    width: 542px;
+    height: 60.12px;
+}
+/* skilss ends  */
+
+
+/* project stars  */
+
+#work{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#work h1{
+    font-family: var(--main-font);
+    color: var(--font-color1);
+    font-size: 47.2292px;
+    line-height: 57px;
+    letter-spacing: 0.1em;
+}
+
+.card{
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 500px;
+}
+.card p{
+    font-family: var(--sc-font);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #353535;
+}
+#work button{
+    margin-top: 40px;
+}
+
+#designs{
+    margin-bottom: 100px;
+    
+}
+#designs img{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-btn .work{
+    margin-top: 50px;
+}
+
+/* project ends  */
+
+
+/* about starts  */
+
+.about{
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+.about-body{
+    margin-top: 50px;
+}
+.about-body img{
+    width: 566px;
+height: 626px;
+}
+
+.about-body p{
+font-family: var(--sc-font);
+font-size: 20px;
+}
+
+.about button{
+    margin-top: 100px;
+}
+
+
+
+/* about ends  */
+
+/* contact starts */
+.form{
+    background-color: #353535;
+    height: 800px;
+    color: white;
+    font-family: var(--main-font);
+}
+
+form .main-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+form img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+#contact h1{
+    color: #ffffff;
+}
+#contact label{
+    margin-top: 30px !important;
+    margin-bottom: 20px; ;
+}
+.contact-form input{
+    width: 100%;
+}
+
+.contact-form textarea{
+    width: 100%;
+}
+
+.main-btn{
+    text-align: left;
+}
+/* contact ends */
+footer{
+    background: #ffffff;
+    height: 100px;
+    margin-top: 50px;
+}
+
+footer .text{
+    margin-top: 30px;
+}
+footer .text h1{
+    font-family: var(--sc-font);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+
+
+/* responsive */
+
+@media only screen and (max-width:600px)
+{
+    
+}
