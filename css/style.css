@@ -146,8 +146,7 @@ h1{
 }
 
 .hero-img img{
-    max-width: 450px;
-    margin-top: 171px;
+    max-width: 550px;
 }
 /* hero ends  */
 
@@ -265,7 +264,6 @@ font-size: 20px;
 /* contact starts */
 .form{
     background-color: #353535;
-    height: 800px;
     color: white;
     font-family: var(--main-font);
 }
@@ -361,7 +359,7 @@ footer .text h1{
     margin-top: 20px;
 }
 .skill-set .dev {
-  width: 332px;
+  width: 322px;
   height: 66px;
 }
 
@@ -395,7 +393,21 @@ h2 {
     height: 350px;
 }
 
+.about-body p {
+  font-family: var(--sc-font);
+  font-size: 14px;
 }
+
+#contact .line {
+  max-width: 230px;
+}
+
+.socials img{
+    height: 20px;
+}
+
+}
+
 
 @media (min-width: 576px){
     .navbar-toggler{
